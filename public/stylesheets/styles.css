@@ -1,0 +1,49 @@
+body{
+        color:#1d3557;
+    font-family: 'Cabin', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#e63946;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:#457b9d;
+}
+.navbar-light .navbar-brand{
+    color:#e63946;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../imgs/hamburgerToggler.png");
+    }
+    .navbar-light .navbar-brand.active{
+        color:#457b9d;
+    
+    }
+    nav.navbar.sticky-top.navbar-expand-lg.navbar-light.scrolled{
+        background-color:white;
+        transition:background 500ms;
+    }
+.homeLink a{
+    color:#e63946;
+    font-size:1.5rem;
+}
+a.contactLink{
+    text-decoration: none;
+}
+a{
+    color:#e63946;
+ 
+}
+a:hover{
+    color:#457b9d;
+}
+
+#indexSpacer{
+    height:50px;
+
+}
+#hiBlock{
+    font-size:250px;
+}
+a.btn.btn-primary {
+    background-color: #457b9d;
+}
