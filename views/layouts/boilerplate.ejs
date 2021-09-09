@@ -12,23 +12,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G414H994MW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-G414H994MW');
+    </script>
 
 
 </head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G414H994MW"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'G-G414H994MW');
-</script>
 
 <body class="">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand <%if(currentLink=== "index"){%>
+            <a class="navbar-brand <%if(currentLink=== " index"){%>
                 active <% } %>
                     "href="/">RUHEE RAJWANI
             </a>
@@ -40,9 +41,9 @@
                 <div class="navbar-nav ms-auto">
                     <!-- <a class="nav-link <%if(currentLink=== "about"){%>
                         active <% } %>" href="about">ABOUT</a> -->
-                    <a class="nav-link <%if(currentLink=== "projects"){%>
+                    <a class="nav-link <%if(currentLink=== " projects"){%>
                         active <% } %>" href="projects">PROJECTS</a>
-                    <a class="nav-link <%if(currentLink=== "contact"){%>
+                    <a class="nav-link <%if(currentLink=== " contact"){%>
                         active <% } %>" href="contact">CONTACT</a>
                 </div>
             </div>
