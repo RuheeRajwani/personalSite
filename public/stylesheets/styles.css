@@ -51,3 +51,10 @@ a:hover{
 a.btn.btn-primary {
     background-color: #457b9d;
 }
+
+@media (max-width:600px){
+    .homeContactContainer{ 
+      margin-left:10%;
+      margin-right:10%;
+        }
+  }
