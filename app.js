@@ -17,10 +17,6 @@ app.get('/', (req, res) => {
     currentLink = "index";
     res.render('index', { currentLink })
 })
-app.get('/about', (req, res) => {
-    currentLink = "about";
-    res.render('about', { currentLink })
-})
 app.get('/projects', (req, res) => {
     currentLink = "projects"
     res.render('projects', { currentLink, yelpCampLink, safeReturnLink })
@@ -28,6 +24,10 @@ app.get('/projects', (req, res) => {
 app.get('/contact', (req, res) => {
     currentLink = "contact"
     res.render('contact', { currentLink })
+})
+app.get('/workExperience', (req, res) => {
+    currentLink = "workExperience"
+    res.render('workExperience', { currentLink })
 })
 
 

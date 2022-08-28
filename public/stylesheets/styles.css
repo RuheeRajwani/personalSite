@@ -1,5 +1,5 @@
 body{
-        color:#1d3557;
+        color:#274165;
     font-family: 'Cabin', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link{
@@ -7,7 +7,8 @@ body{
 }
 .navbar-light .navbar-nav .nav-link.active{
     color:#457b9d;
-    font-weight: 700;
+    text-decoration: underline;
+    font-weight: 700; 
 
 }
 .navbar-light .navbar-brand{
@@ -16,16 +17,16 @@ body{
 .navbar-light .navbar-toggler-icon {
     background-image: url("../imgs/hamburgerToggler.png");
     }
-    .navbar-light .navbar-brand.active{
-        color:#457b9d;
-        font-weight: 700;
 
-    
-    }
-    nav.navbar.sticky-top.navbar-expand-lg.navbar-light.scrolled{
-        background-color:white;
-        transition:background 500ms;
-    }
+.navbar-light .navbar-brand.active{
+    color:#457b9d;
+    font-weight: 700;
+    text-decoration: underline;
+}
+nav.navbar.sticky-top.navbar-expand-lg.navbar-light.scrolled{
+    background-color:white;
+    transition:background 500ms;
+}
 .homeLink a{
     color:#e63946;
     font-size:1.42rem;
@@ -57,4 +58,4 @@ a.btn.btn-primary {
       margin-left:10%;
       margin-right:10%;
         }
-  }
+}
