@@ -31,7 +31,7 @@ app.get('/workExperience', (req, res) => {
 })
 
 
-const port = 8080;
+const port = 80;
 app.listen(port, () => {
     console.log(`SERVING ON PORT ${port}`)
 })
